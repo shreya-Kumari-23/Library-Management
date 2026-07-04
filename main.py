@@ -7,18 +7,24 @@ db = get_db_connection()
 
 def main():
     while True:
-        print("\n+ ******* Library Management System ********* +")
-        print("1. Add a book")
-        print("2. Display available books")
-        print("3. Issue a book")
-        print("4. Return a book")
-        print("5. Search for a book")
-        print("6. Delete a book")
-        print("7. Report menu")
-        print("8. Exit")
+        print("_")
+        print("+                                                                           +")
+        print("+ *******               Library Management System                 ********* +")
+        print("+_+")
+        print("+                                                                           +")
+        print("+                       1. Add a book                                       +")
+        print("+                       2. Display available books                          +")
+        print("+                       3. Issue a book                                     +")
+        print("+                       4. Return a book                                    +")
+        print("+                       5. Search for a book                                +")
+        print("+                       6. Delete a book                                    +")
+        print("+                       7. Report menu                                      +")
+        print("+                       8. Exit                                             +")
+        print("+                                                                           +")
+        print("+_+")
 
-        choice = input("Enter your choice (1-8): ")
-
+        choice = input("           Enter your choice (1-8): ")
+        
         if choice == "1":
             add_book()
         elif choice == "2":
@@ -32,21 +38,30 @@ def main():
         elif choice == "6":
             delete_book()
         elif choice == "7":
-            print("\nReport Menu:")
-            print("1. Issued Books")
-            print("2. Returned Books")
-            print("3. Go back")
-            sub_choice = input("Enter your choice (1-3): ")
-            if sub_choice == "1":
+            print("\n╔══════════════════════════╗")
+            print("║        REPORT MENU       ║")
+            print("╠══════════════════════════╣")
+            print("║ 1. Issued Books          ║")
+            print("║ 2. Returned Books        ║")
+            print("║ 3. Go back to Main Menu  ║")
+            print("╚══════════════════════════╝\n")
+            choice = input("  Enter your choice (1-3): ")
+
+            if choice == "1":
                 report_issued_books()
-            elif sub_choice == "2":
+            elif choice == "2":
                 report_returned_books()
-            elif sub_choice == "3":
+            elif choice == "3":
                 continue
+            else:
+                print("\nPlease try again..........\n")
         elif choice == "8":
             print("\nThank you and have a great day ahead..........\n")
             db.close()
-            break
+            quit()
         else:
             print("\nInvalid choice. Please try again.\n")
 
+# ✅ This must be OUTSIDE the main() function
+if __name__ == "__main__":
+    main()
