@@ -17,21 +17,19 @@ It supports book management, issuing/returning transactions, and reporting — p
 - MySQL Server
 - Dependencies: `mysql-connector-python`, `prettytable`
 
----
 ## 📂 Project Structure
-Library-Management/
+- Library-Management/
+  - src/
+    - main.py
+    - db_connection.py
+    - books.py
+    - transactions.py
+    - reports.py
+  - requirements.txt
+  - schema.sql
+  - README.md
+  - LICENSE
 
-├── src/                  # All Python source files
-│       ├── main.py
-│       ├── db_connection.py
-│       ├── books.py
-│       ├── transactions.py
-│       └── reports.py
-├── requirements.txt       # Dependencies
-├── schema.sql             # Database schema
-└── README.md              # Documentation
-
----
 
 ## ▶️ How to Run
 1. Clone the repo:
