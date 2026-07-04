@@ -18,14 +18,14 @@ A command-line Library Management System built in Python with MySQL database int
 
 ## 📂 Project Structure
 library-management-system/
-│── main.py              # Entry point with menu
-│── db_connection.py     # Database connection setup
-│── books.py             # Book management functions
-│── transactions.py      # Issue/return functions
-│── reports.py           # Reports for issued/returned books
-│── requirements.txt     # Dependencies
-│── schema.sql           # Database schema
-│── README.md            # Documentation
+- main.py              # Entry point with menu
+- db_connection.py     # Database connection setup
+- books.py             # Book management functions
+- transactions.py      # Issue/return functions
+- reports.py           # Reports for issued/returned books
+- requirements.txt     # Dependencies
+- schema.sql           # Database schema
+- README.md            # Documentation
 
 
 ## ▶️ How to Run
