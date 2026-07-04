@@ -1,7 +1,10 @@
+-- Create the database
 CREATE DATABASE YOUR_LIBRARY;
 
+-- Switch to the database
 USE YOUR_LIBRARY;
 
+-- Table for storing books
 CREATE TABLE books (
     bname VARCHAR(100),
     author VARCHAR(100),
@@ -10,6 +13,7 @@ CREATE TABLE books (
     availability VARCHAR(20)
 );
 
+-- Table for issued books
 CREATE TABLE issue (
     student_name VARCHAR(100),
     bcode VARCHAR(20),
@@ -17,6 +21,7 @@ CREATE TABLE issue (
     issue_date DATE
 );
 
+-- Table for returned books
 CREATE TABLE rturn (
     student_name VARCHAR(100),
     bcode VARCHAR(20),
