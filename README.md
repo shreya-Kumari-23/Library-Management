@@ -18,16 +18,27 @@ A command-line Library Management System built in Python with MySQL database int
 
 ## 📂 Project Structure
 Library-Management/
+
 ├── src/                  # All Python source files
+
 │   ├── main.py
+
 │   ├── db_connection.py
+
 │   ├── books.py
+
 │   ├── transactions.py
+
 │   └── reports.py
-├── requirements.txt      # Dependencies
+
+├── requirements.txt       # Dependencies
+
 ├── schema.sql            # Database schema
+
 ├── README.md             # Documentation
+
 └── LICENSE               # License file (optional, e.g. MIT)
+
 
 ## ▶️ How to Run
 1. Clone the repo:
