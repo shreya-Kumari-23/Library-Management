@@ -1,6 +1,7 @@
 # 📚 Library Management System (Python + MySQL)
 
-A command-line Library Management System built in Python with MySQL database integration.
+A simple command-line Library Management System built in Python with MySQL integration.  
+It supports book management, issuing/returning transactions, and reporting — perfect for learning database + Python integration.
 
 ## 🚀 Features
 - Add new books
@@ -16,6 +17,7 @@ A command-line Library Management System built in Python with MySQL database int
 - MySQL Server
 - Dependencies: `mysql-connector-python`, `prettytable`
 
+---
 ## 📂 Project Structure
 Library-Management/
 
@@ -26,10 +28,10 @@ Library-Management/
 │       ├── transactions.py
 │       └── reports.py
 ├── requirements.txt       # Dependencies
-├── schema.sql            # Database schema
-├── README.md             # Documentation
-└── LICENSE               # License file (optional, e.g. MIT)
+├── schema.sql             # Database schema
+└── README.md              # Documentation
 
+---
 
 ## ▶️ How to Run
 1. Clone the repo:
