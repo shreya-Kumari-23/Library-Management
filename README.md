@@ -42,5 +42,5 @@ library-management-system/
 3. Set up the database:
    mysql -u root -p < schema.sql
 
-4.Run the program:
+4. Run the program:
   python main.py
