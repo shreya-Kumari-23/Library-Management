@@ -17,18 +17,16 @@ A command-line Library Management System built in Python with MySQL database int
 - Dependencies: `mysql-connector-python`, `prettytable`
 
 ## 📂 Project Structure
-library-management-system/
-
-├── main.py              # Entry point with menu
-├── db_connection.py     # Database connection setup
-├── books.py             # Book management functions
-├── transactions.py      # Issue/return functions
-├── reports.py           # Reports for issued/returned books
-├── requirements.txt     # Dependencies
-├── schema.sql           # Database schema
-└── README.md            # Documentation
-
-
+Library-Management/
+├── src/
+│   ├── main.py
+│   ├── db_connection.py
+│   ├── books.py
+│   ├── transactions.py
+│   └── reports.py
+├── requirements.txt
+├── schema.sql
+└── README.md
 
 ## ▶️ How to Run
 1. Clone the repo:
