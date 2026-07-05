@@ -28,8 +28,6 @@ It supports book management, issuing/returning transactions, and reporting — p
   - requirements.txt
   - schema.sql
   - README.md
-  - LICENSE
-
 
 ## ▶️ How to Run
 1. Clone the repo:
