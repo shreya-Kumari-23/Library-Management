@@ -1,2 +1,6 @@
 mysql-connector-python==8.0.33
+<<<<<<< HEAD
 prettytable==3.9.0
+=======
+prettytable==3.9.0
+>>>>>>> 63527ea8a309f1ff3d1b255beb8e3156764a1d3d
