@@ -27,8 +27,4 @@ CREATE TABLE rturn (
     bcode VARCHAR(20),
     reg_no VARCHAR(20),
     return_date DATE
-<<<<<<< HEAD
 );
-=======
-);
->>>>>>> 63527ea8a309f1ff3d1b255beb8e3156764a1d3d
